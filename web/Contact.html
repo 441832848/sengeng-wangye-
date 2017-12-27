@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+	  <link rel="stylesheet" type="text/css" href="../css/Initialization.css" />
+    <!-- 引入css -->
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css" />
+	<!--引入自己的css开始-->
+	<link rel="stylesheet" type="text/css" href="../css/Contact_css/Contact.css"/>
+	<!--引入自己的css结束-->
+	 <script src="http://api.map.baidu.com/api?v=1.3"></script>
+      <!-- 引入bootstrop开始 -->
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-theme.min.css" />
+    <script src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- 引入bootstrop结束 -->
+</head>
+<body>
+	<div id="entirety">
+	<!--这里是导航的开始-->
+		<div id="header">
+			<!--这里是下拉菜单-->
+		<div class="menu">
+		 <nav>
+              <ul>
+             <li><a href="../index.html">首页</a></li>
+            <li><a href="Product.html">企业简介</a></li>
+            <li><a href="news.html">产品展示</a>
+                <ul>
+                    <li><a href="#">0000000</a></li>
+                    <li><a href="#">0000</a></li>
+                </ul>
+            </li>
+            <li><a href="#">新闻资讯</a>
+                <ul>
+                    <li><a href="#">0000000</a></li>
+                    <li><a href="#">0000</a></li>
+                </ul>
+            </li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">客户服务</a></li>
+             </ul>
+        	</nav> 
+         </div>
+         <!--这里是结束-->
+         <!--这里是大图的开始-->
+         <div id="mid">
+         <img src="../img/Contact_img/datu.jpg" style="border-radius:10px;">
+         </div>
+         <!--这里是大图的结束-->
+         <!--这里是中间的开始-->
+         <div id="contact">
+			<div class="contact_left">
+			<!--这里是地图的开始-->
+				  <!--地图-->
+            <div id="mapCanvas" class="map-canvas no-margin" style="height: 320px; width: 500px">
+            <script type="text/javascript">
+                var map = new BMap.Map("mapCanvas"); // 创建Map实例
+                var point = new BMap.Point("118.782016", "36.888068"); // 创建点坐标
+                map.centerAndZoom(point, 15); // 初始化地图,设置中心点坐标和地图级别。
+                map.enableScrollWheelZoom(); //启用滚轮放大缩小
+                //添加缩放控件
+                map.addControl(new BMap.NavigationControl());
+                map.addControl(new BMap.ScaleControl());
+                map.addControl(new BMap.OverviewMapControl());
+
+                var marker = new BMap.Marker(point); // 创建标注
+                map.addOverlay(marker); // 将标注添加到地图中
+                var infoWindow = new BMap.InfoWindow; // 创建信息窗口对象
+                marker.openInfoWindow(infoWindow);
+            </script>
+        </div>
+        <!--地图-->
+				<!--这里是地图的结束-->
+				<div class="contact_np">
+						<h3 align="center">联系我们</h3>
+						<p>手机：0000000000</p>
+						<p>电话：0000000000</p>
+						<p>邮箱：20161226@qq.com</p>
+						<p>公司公众号：森耕木叶有限公司</p>
+						<p>公司地址：山东省寿光市潍坊科技学院</p>
+						<p></p>
+				</div>
+			</div>
+			<div class="contact_right">
+			<h3 align="center" style="border-bottom: 1px solid #C0C0C0;">意见反馈</h3>
+					<div class="form-group">
+					<label for="name">姓名：</label><input type="text" class="form-control" placeholder="请输入姓名">
+					<label for="name">手机号：</label><input type="text" class="form-control" placeholder="请输入手机号">
+					<label for="name">邮箱：</label><input type="text" class="form-control" placeholder="请输入邮箱格式以@126为准">
+					<label for="name">留言：</label>
+						<textarea class="form-control" rows="3" placeholder="请输入留言内容"></textarea>
+						<button type="submit" class="btn btn-default" style="margin-left: 80px;">提交</button>
+						<button type="submit" class="btn btn-default" style="margin-left: 80px;">重置</button>
+					</div>
+			</div>
+         </div>
+         <!--这里是中间的结束-->
+         <!--这里是底部的开始-->
+				<div id="footer">
+			<div class="footer_main">
+				<div class="wrap">
+					<div class="wrap_1">地址：潍坊科技学院 邮编： 000000</div>
+					<div class="wrap_2">
+						<a href="#"><img  src="../img/weibo_76.png" alt="链接"></a>
+						<a href="#"><img src="../img/wechat_76.png" alt="连接"></a>
+						<a href="#"><img src="../img/qq.png" alt="连接"></a>
+					</div>
+					<div class="wrap_3">潍ICP 备05052068号 潍坊举报中心 </div>
+				</div>
+				<div class="footer_bot">
+					<a href="">网站指南</a>
+					<a href="">信息网站</a>
+					<a href="">公司介绍</a>
+					<a href="">网站地图</a>
+					<a href="">首页介绍</a>
+					<a href="">最新新闻</a>
+					<a href="">网站指南</a>
+					<a href="">木材介绍</a>
+					<a href="">中外联合</a>
+					<a href="">中外合资</a>
+					<a href="">最新介绍</a>
+				</div>
+			</div>
+		</div>
+
+         <!--这里是底部的结束-->
+</div>
+<!--这里是全部的结束-->
+</body>
+</html>

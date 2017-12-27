@@ -1,0 +1,269 @@
+#entirety
+{
+	width:1200px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#navigation{
+	width:1200px;
+	height: 150px;
+	margin: 0px;
+  position:relative;
+  left:200px;
+}
+.logo{
+	width:200px;
+	height: 150px;
+	float: left;
+	position:relative;
+}
+/*这里是导航的开始*/
+.menu{
+	width:800px;
+	height: 100px;
+	margin-left: 290px;
+	}
+nav {
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+}
+nav ul {
+    border-radius:10px;
+    background:linear-gradient(to bottom,#009999,#009999);
+    padding:5 20px;
+    display:inline-table;
+    position:relative;
+    box-shadow:10px 10px 10px #666;
+}
+nav ul ul {
+    display:none;
+}
+nav ul li a {
+    display:block;
+    padding:16px 30px;
+    color:#fff;
+    text-decoration:none;
+}
+nav ul li:hover>ul {
+    display:block;
+}
+nav ul li:hover {
+    background:linear-gradient(to bottom,#009966,#009966);
+}
+nav ul li:hover a {
+    color:#FFF;
+}
+nav ul ul {
+    background:#009966;
+    position:absolute;
+    z-index:2;
+}
+nav ul ul li {
+    float:none;
+    border-top:2px solid #f0ffff;
+    border-bottom:2px solid #575f6a;
+}
+nav ul ul li a {
+    color:#FFF;
+}
+nav ul ul li a:hover {
+    background:#4b545f;
+}
+nav ul ul ul {
+    width:100%;
+    position:absolute;
+    left:100%;
+    top:50%;
+}
+/*这里是导航的结束*/
+/*这里是轮播的开始*/
+#shuffling{
+	width:1200px;
+	height: 358px;
+	margin-top: 50px;
+}
+.shutter {
+  overflow: hidden;
+  width: 1200px;
+  height: 358px;
+  position: relative;
+  margin: 50px auto;
+  border-radius: 10px;
+
+}
+.shutter-img {
+  z-index: 1;
+}
+.shutter-img,
+.shutter-img a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.shutter-img a {
+  cursor: default;
+}
+.shutter-img a > img {
+  width: 100%;
+  height: 100%;
+}
+.shutter-img .created {
+  overflow: hidden;
+  position: absolute;
+  z-index: 20;
+}
+.shutter-btn {}
+.shutter-btn li {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  width: 49px;
+  height: 49px;
+  margin-top: -25px;
+  cursor: pointer;
+}
+.shutter-btn li.prev {
+  left: 20px;
+  background: url(../img/shutter_prevBtn.png) no-repeat 0 -49px;
+}
+.shutter-btn li.next {
+  right: 20px;
+  background: url(../img/shutter_nextBtn.png) no-repeat 0 -49px;
+}
+.shutter-desc {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 36px;
+  background: url(../img/shutter_shadow.png) repeat;
+}
+.shutter-desc p {
+  padding-left: 20px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 14px;
+}
+/*这里是轮播的结束*/
+/*这里是新闻的开始*/
+    /*声明：因为样式一样，在这里统一为默认使用样式，在显示结果一样的情况下，简约代码，也提升了浏览速度*/
+#graphic{
+  width: 1200px;
+  height: 400px;
+  margin-top:30px;
+  float: left;
+}
+/*这是左边*/
+.lt{
+  width:380px;
+  float: left;
+}
+.title{
+  width:380px;
+  height: 45px;
+  border-bottom: 1px solid #c3c1b9;
+  line-height: 40px;
+  float: left;
+}
+.title h3{
+  display: inline-block;
+  border-bottom: 2px solid #0d740b;
+  float: left;
+  color: #333;
+}
+.title img{
+  margin-left:10px;
+  margin-top: 8px;
+}
+.title a{
+  display: block;
+  float: right;
+  color: #727171;
+  font-size: 14px;
+  line-height: 40px;
+  margin-top: 8px;
+}
+.literals{
+  width:300px;
+  margin-top: 15px;
+  float: left;
+}
+.literals ul li{
+  width:300px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.literals ul li a:link{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+}
+.literals ul li a:hover{
+  color: #189f36;
+}
+.dates{
+  width:80px;
+  float: right;
+  margin-top:15px;
+}
+.dates ul li{
+  width:80px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dates a{
+  display: block;
+  color: #333;
+}
+.dates a:hover{
+  color: #189f36;
+}
+/*左边结束*/
+/*这是中间*/
+.mid{
+  width:380px;
+  float: left;
+  margin-left: 20px;
+}
+/*中间结束*/
+/*这是右边*/
+.rt{
+  width:380px;
+  float: right;
+}
+/*右边结束*/
+/*底部开始*/
+.bottom{
+  margin: 0 auto;
+  width:1200px;
+  height:150px;
+  clear: both;
+  background-color:#528B8B;
+}
+.record{
+  width:400px;
+  height: 200px;
+  margin: auto;
+  margin-top:30px;
+  font-size: 15px;
+  color: #fff;
+  line-height: 30px;
+}
+.record img{
+  margin-top: 10px;
+}
+.record span{
+  margin-left: 20px;
+}
+/*底部结束*/

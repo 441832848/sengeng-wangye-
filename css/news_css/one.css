@@ -1,0 +1,100 @@
+#container{
+	width: 1200px;
+	margin: 0px auto;
+}
+#entirety{
+	width: 1200px;
+	height: 150px;
+}
+#content{
+	width: 1200px;
+	height: 400px;
+     }
+#main{
+	width: 1200px;
+	height:473px; 
+	padding:0px 0px 20px 0px;
+      margin-top: -15px;
+      border-radius: 5px;
+    border-bottom: 2px solid green;
+    background: rgb(239,239,239);
+}
+.main_top{
+	width: 1200px;
+	height: 24px;
+	background: white;
+	border-bottom: 1px solid gray;
+      margin-top: 30px;
+}
+.main_top img{
+	display: inline;
+	margin-left: 20px;
+      margin-bottom: 5px;
+}
+.main_top p{
+	display: inline-block;
+	margin-top:3px;
+	border-bottom: 2px solid blue;
+}
+.main_top li{
+	float: right;
+	margin: 3px 20px 0px 0px;
+}
+.main_top a:hover {color: red}	/* 鼠标移动到链接上 */
+.main_bottom{
+	width:480px ;
+	height:428px ;
+
+	margin-left: 50px;
+	margin-right: 60px;
+	float: left;
+      font-size: 12px;
+     
+}
+.main_bottom img{
+	padding:10px 25px 10px 25px ;
+      margin-left: 10px;
+      margin-top: 10px;
+      border: 1px dashed gray;
+      border-radius: 10px;
+}
+.main_bottom li+li{
+	margin-top: 15px;
+}
+.main_bottom ul{
+      width: 480px;
+      color: rgb(239,239,239);
+}
+.main_bottom ul li{
+      width: 480px;
+      margin-top: 25px;
+	font-size: 1.2em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+	
+      white-space: nowrap;/*一行显示*/
+      overflow: hidden;/*超出部分隐藏*/
+      text-overflow: ellipsis;/*用...代替超出部分*/
+
+}
+#demo { overflow:hidden;
+ background: #FFF;
+overflow:hidden;
+border: 1px dashed #CCC;
+width: 1200px;
+    }
+  #demo img {
+  border: 3px solid #F2F2F2;
+ }
+#indemo {
+ float: left;
+width: 800%; 
+}
+ #demo1 {
+ float: left;
+   }
+  #demo2 {
+  float: left;
+   } 
+ /*循环图片的css*/

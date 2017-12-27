@@ -1,0 +1,54 @@
+/*这里是大图的开始*/
+#mid{
+	width:1200px;
+	height: 300px;
+	margin-top:20px;
+	border-radius:10px;
+}
+/*这里是大图的结束*/
+/*这里是中间的开始*/
+#contact{
+	width:1200px;
+	height: 600px;
+	border-radius:10px;
+}
+/*这里是左边的开始*/
+.contact_left{
+	width:500px;
+	height: 600px;
+	float: left;
+	border-radius:10px;
+}
+/*这是左上半部分*/
+#mapCanvas{
+	width:500px;
+	height: 300px;
+	margin-top: 18px;
+	
+}
+/*这是左下半部分*/
+.contact_np{
+	width:500px;
+	height: 300px;
+}
+.contact_np  h3{
+	font-size: 25px;
+	border-bottom: 1px solid #C0C0C0;
+}
+.contact_np  p{
+	line-height: 30px;
+	margin-left: 30px;
+}
+/*这里是右边的开始*/
+.contact_right{
+	width:600px;
+	height: 600px;
+	float: right;
+	border-radius:10px;
+	margin-right: 30px;
+}
+.form-group{
+	width:400px;
+	line-height: 50px;
+	margin-left:50px;
+}

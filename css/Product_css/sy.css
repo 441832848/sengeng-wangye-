@@ -1,0 +1,126 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+.header{
+   margin: 0 auto;
+    float: left;
+    width: 1200px;
+    height: 200px;
+}
+.main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 830px;
+}
+.top{
+    float: left;
+    width: 1200px;
+    height: 60px;
+    border-bottom:1.5px solid gray;
+}
+.t-l{
+ float: left;
+ color: black;
+font-size: 30px;
+margin: 15px;
+border-bottom:2px solid blue;
+}
+.t-r{
+ float: right;
+ color: black;
+font-size: 15px;
+margin: 30px;
+}
+.photo{
+width: 1200px;
+height: 300px;
+margin: 0 auto;
+}
+.moddle{
+    clear: both;
+    width:1200px;
+    height: 800px;
+    background: white;
+    margin:0 auto;
+}
+.m-l-1{
+    float: left;
+    width: 600px;
+    height: 400px;
+/*background: red;*/
+}
+.m-l-2{
+    float: left;
+    width: 600px;
+    height: 400px;
+    /*background: yellow;*/
+}
+.m-r-3{
+    float: left;
+    width: 600px;
+    height: 400px;
+    /*background: green;*/
+}
+.m-r-4{
+    float: left;
+    width: 600px;
+    height: 400px;
+  /* background: blue;*/
+}
+.m-l-2-l{
+    float: left;
+    width: 280px;
+    height: 180px;
+   /*background: yellow;*/
+     position: relative;
+     left: -180px;
+  top: 30px;
+  bottom: -20px;
+}
+.m-l-2-r{
+    width: 280px;
+    height: 180px;
+    /*background: yellow;*/
+}
+.m-r-3-l{
+   float: left;
+    width: 280px;
+    height: 180px;
+    /*background: yellow;*/
+     position: relative;
+     left: 200px;
+     bottom: -20px;
+}
+.m-r-3-r{
+    width: 280px;
+    height: 180px;
+    /*background: yellow;*/
+}
+.guding-r{
+   width: 450px;
+   height: 280px;
+   /*background: #dd8;*/
+   position: relative;
+     left: 250px;
+     bottom: -10px;
+}
+.guding-l{
+   width: 450px;
+   height: 280px;
+   /*background: #dd8;*/
+   position: relative;
+     left: 60px;
+     bottom: -10px;
+}
+.wenzi{
+    color: black;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+    overflow: hidden; /*自动隐藏文字*/
+    width: 40em;/*不允许出现半汉字截断*/
+}
+
