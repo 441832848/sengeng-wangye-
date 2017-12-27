@@ -1,0 +1,144 @@
+#product-show{
+	width: 1200px;
+	height: 1200px;
+	?
+}
+.two{
+	width: 1200px;
+	height: 800px;
+	/*background: #e3170d;*/
+	float: left;
+	margin-bottom: 20px;
+	border:1px solid #000;
+	
+}
+.navigation-1{
+	width: 1198px;
+	height: 40px;
+	background-color:#009899;
+    color: #666;
+    float: left;
+
+}
+.zhuanqu{
+	width:320px;
+	height: 40px;
+	float: left;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    padding-left: 20px;
+}
+ .zhuanqu1 {
+    height: 30px;
+    float: left;
+    line-height: 40px;
+}
+.zhuanqu1 li {
+    float: left;
+    margin-right: 10px;
+    display: inline;
+}
+.center-left ul ,.center-left ul li{
+    list-style: none;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 6px;
+    padding: 0;
+    color: black;
+}
+.center-left2 ul ,.center-left2 ul li{
+    list-style: none;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 6px;
+    padding: 0;
+    color: black;
+}
+/*li {
+    display: list-item;
+    text-align: center;
+}*/
+.zhuanqu2 {
+    height: 34px;
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 34px;
+    color: #ff6347;
+}
+.center-left{
+	width: 250px;
+	height: 450px;
+	background: #009899;
+	float: left;
+	margin: 20px;
+	line-height: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+#shop-top{
+	float: left;
+}
+#center-main{
+	width: 870px;
+	height: 700px;
+	margin: 15px;
+	background: #8b864e;
+	float: left;
+	border-radius: 26px;
+}
+.eight{
+	width: 195px;
+	height: 300px;
+	background: #009899;
+	float: left;
+	margin: 10px;
+	border-radius: 16px;
+}
+.eight p,.eight2 p{
+	padding-left: 10px;
+}
+#show{
+	width: 195px;
+	height: 200px;
+	float: left;
+	
+}
+.navigation-2{
+	width: 1198px;
+	height: 40px;
+	background-color: #228b22;
+    color: #666;
+    float: left;
+
+}
+.center-left2{
+	width: 250px;
+	height: 450px;
+	background: #6b8e23;
+	float: left;
+	margin: 20px;
+	line-height: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#center-main2{
+	width: 870px;
+	height: 700px;
+	margin: 15px;
+	background: #40e0d0;
+	float: left;
+	border-radius: 26px;
+}
+.eight2{
+	width: 195px;
+	height: 300px;
+	background:#6b8e23;
+	float: left;
+	margin: 10px;
+	
+	border-radius: 16px;
+}
